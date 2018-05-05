@@ -1,0 +1,18 @@
+html{
+	background-color: #ff00ff;
+}
+
+.cheer{
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-color: #2e18e5;
+	font-size: 30;
+
+	-webkit-text-fill-color: #2e18e5;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+}
+
+.cheer-name{
+	font-weight: bold;
+}

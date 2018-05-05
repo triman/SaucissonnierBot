@@ -1,0 +1,15 @@
+<% include ../partials/header %>
+
+<!-- ko foreach: cheers -->
+
+<div class="cheer"><span data-bind="text: displayName" class="cheer-name"></span> vous offre un saucisson pour l'apéro: <span data-bind="text: message"></span> </div>
+
+<!-- /ko -->
+
+<script>
+var vm = new viewmodel('<%= channel %>');
+
+ko.applyBindings(vm);
+</script>
+
+<% include ../partials/footer %>
